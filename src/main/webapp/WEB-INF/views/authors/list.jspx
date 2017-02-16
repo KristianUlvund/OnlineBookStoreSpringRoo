@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_onlinebookstore_domain_Author" items="${authors}" z="/2obZhcjhXTNAx7Ma3lQo6lz8ME=">
+        <table:table data="${authors}" id="l_com_springsource_roo_onlinebookstore_domain_Author" path="/authors" z="L61xjHMvw5Nlw24Mrr1xv9f2GJQ=">
+            <table:column id="c_com_springsource_roo_onlinebookstore_domain_Author_name" property="name" z="AhSYTqJJEYzlPntI+VWMOIenrUw="/>
+            <table:column id="c_com_springsource_roo_onlinebookstore_domain_Author_age" property="age" z="C4ls9R/q9LRqPSMOiqafWYnQE1s="/>
+            <table:column id="c_com_springsource_roo_onlinebookstore_domain_Author_Categories" property="categories" z="E2FVJ/74r9qVMPv/AOc6PdnLLws="/>
+            <table:column id="c_com_springsource_roo_onlinebookstore_domain_Author_Books" property="books" z="LPSVoEyaFJoFEAz02d/BGTDtx7s="/>
+        </table:table>
+    </page:list>
+</div>

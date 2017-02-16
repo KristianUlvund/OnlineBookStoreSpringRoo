@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show delete="false" id="ps_com_springsource_roo_onlinebookstore_domain_Orders" object="${orders}" path="/orderses" update="false" z="qG2rJ8p5X6kauVbWvqFlM4AYV+I=">
+        <field:display field="books" id="s_com_springsource_roo_onlinebookstore_domain_Orders_Books" object="${orders}" z="aokTbuKA1ciTYDrF/OkyURXej9Y="/>
+        <field:display field="shipping" id="s_com_springsource_roo_onlinebookstore_domain_Orders_Shipping" object="${orders}" z="39ZJF9ol1W9rSBcoWiQl5KXg7IQ="/>
+    </page:show>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_springsource_roo_onlinebookstore_domain_Shipping" items="${shippings}" z="5uvOkAnp+e9ArWkrX0/nSrcja+g=">
+        <table:table data="${shippings}" id="l_com_springsource_roo_onlinebookstore_domain_Shipping" path="/shippings" z="Gr2lHO7L7WlTGqwc3dCcNznTnws=">
+            <table:column id="c_com_springsource_roo_onlinebookstore_domain_Shipping_Name" property="name" z="oHYv5q+g/VF1sy3qw17pMoJM4sk="/>
+            <table:column id="c_com_springsource_roo_onlinebookstore_domain_Shipping_Address" property="address" z="6C2g4+vlvvpWNWxRhyWVlZLVPGs="/>
+            <table:column id="c_com_springsource_roo_onlinebookstore_domain_Shipping_postalCode" property="postalCode" z="9IhXlM/X1SQwryrir898P4xKHgY="/>
+            <table:column date="true" dateTimePattern="${shipping_deliverytime_date_format}" id="c_com_springsource_roo_onlinebookstore_domain_Shipping_deliveryTime" property="deliveryTime" z="P9MojC3Pn7IfSTTDfjEzAYCew9w="/>
+        </table:table>
+    </page:list>
+</div>

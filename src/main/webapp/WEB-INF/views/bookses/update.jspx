@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_springsource_roo_onlinebookstore_domain_Books" modelAttribute="books" path="/bookses" versionField="Version" z="eNUBARKGi2FXfp6IvVHqGa0iqSU=">
+        <field:input field="Title" id="c_com_springsource_roo_onlinebookstore_domain_Books_Title" min="3" required="true" z="wzV1w5EiYjiNqGHphxeq8mfUlxw="/>
+        <field:input field="ISBN" id="c_com_springsource_roo_onlinebookstore_domain_Books_ISBN" min="17" required="true" z="FHplaiaMTbJrCUiPND79xQ7fFTQ="/>
+        <field:input field="Cost" id="c_com_springsource_roo_onlinebookstore_domain_Books_Cost" validationMessageCode="field_invalid_number" z="8jCGRhnhncfDhAc8ib8nWF/ipew="/>
+        <field:input field="Quantity" id="c_com_springsource_roo_onlinebookstore_domain_Books_Quantity" validationMessageCode="field_invalid_integer" z="SU7DocX+GG/ZymF+hbEA+VKb2jc="/>
+        <field:select field="Categories" id="c_com_springsource_roo_onlinebookstore_domain_Books_Categories" itemValue="id" items="${categorieses}" multiple="true" path="/categorieses" z="OflsLPjNBC5aQleZdFsfDC1ejeo="/>
+        <field:select field="Author" id="c_com_springsource_roo_onlinebookstore_domain_Books_Author" itemValue="id" items="${authors}" multiple="true" path="/authors" z="WASz7ULIxEK65h/T02ZXzLgRxnU="/>
+    </form:update>
+</div>

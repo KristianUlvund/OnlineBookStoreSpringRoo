@@ -1,0 +1,21 @@
+<aspectj>
+<aspects>
+<aspect name="com.springsource.roo.onlinebookstore.domain.AuthorIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.BooksDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.CategoriesDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.ShippingDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.BooksDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.AuthorDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.BooksIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.BooksIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.AuthorDataOnDemand_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.ShippingIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.ShippingIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.AuthorIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.CategoriesDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.CategoriesIntegrationTest_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.CategoriesIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.ShippingDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

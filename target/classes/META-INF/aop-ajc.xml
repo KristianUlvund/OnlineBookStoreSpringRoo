@@ -1,0 +1,36 @@
+<aspectj>
+<aspects>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Shipping_Roo_ToString"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Author_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Categories_Roo_ToString"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Categories_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Author_Roo_ToString"/>
+<aspect name="com.springsource.roo.onlinebookstore.web.ShippingController_Roo_Controller"/>
+<aspect name="com.springsource.roo.onlinebookstore.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Author_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Categories_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Orders_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Books_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Author_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Orders_Roo_Configurable"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Orders_Roo_ToString"/>
+<aspect name="com.springsource.roo.onlinebookstore.web.CategoriesController_Roo_Controller"/>
+<aspect name="com.springsource.roo.onlinebookstore.web.OrdersController_Roo_Controller"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Categories_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Shipping_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Categories_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Shipping_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Orders_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Books_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Books_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Shipping_Roo_Jpa_Entity"/>
+<aspect name="com.springsource.roo.onlinebookstore.web.BooksController_Roo_Controller"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Author_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Books_Roo_JavaBean"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Books_Roo_ToString"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Orders_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.springsource.roo.onlinebookstore.web.AuthorController_Roo_Controller"/>
+<aspect name="com.springsource.roo.onlinebookstore.domain.Shipping_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

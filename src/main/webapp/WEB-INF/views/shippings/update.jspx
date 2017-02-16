@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_springsource_roo_onlinebookstore_domain_Shipping" modelAttribute="shipping" path="/shippings" versionField="Version" z="l5TzKvcb0WHSkF44BoRpsQcuhK8=">
+        <field:textarea field="Name" id="c_com_springsource_roo_onlinebookstore_domain_Shipping_Name" required="true" z="MwrBZ50OZ4cmaKQJ7fTdNwCXVJU="/>
+        <field:textarea field="Address" id="c_com_springsource_roo_onlinebookstore_domain_Shipping_Address" required="true" z="sXAkLKMOULvSDXBNStsZtjglQco="/>
+        <field:input field="postalCode" id="c_com_springsource_roo_onlinebookstore_domain_Shipping_postalCode" validationMessageCode="field_invalid_integer" z="mswFCnQGnbi/ovN1pSD6qeHpj0o="/>
+        <field:datetime dateTimePattern="${shipping_deliverytime_date_format}" field="deliveryTime" id="c_com_springsource_roo_onlinebookstore_domain_Shipping_deliveryTime" z="HJJJxPVJ7O3TV5F6RSgHWgEo/S0="/>
+    </form:update>
+</div>

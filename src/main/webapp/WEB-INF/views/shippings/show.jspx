@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_springsource_roo_onlinebookstore_domain_Shipping" object="${shipping}" path="/shippings" z="ThTCErj3vubIz15h/hAqe/A976Y=">
+        <field:display field="name" id="s_com_springsource_roo_onlinebookstore_domain_Shipping_Name" object="${shipping}" z="PLjF9hu8BFvlyDXzfv1l11D3FQ0="/>
+        <field:display field="address" id="s_com_springsource_roo_onlinebookstore_domain_Shipping_Address" object="${shipping}" z="vc7R0dlIgMp4QIfqehy1Qzz0iGk="/>
+        <field:display field="postalCode" id="s_com_springsource_roo_onlinebookstore_domain_Shipping_postalCode" object="${shipping}" z="cECOuQ6E+TJppUo1kzejwe5VY18="/>
+        <field:display date="true" dateTimePattern="${shipping_deliverytime_date_format}" field="deliveryTime" id="s_com_springsource_roo_onlinebookstore_domain_Shipping_deliveryTime" object="${shipping}" z="noCgoz7TdDSJp8ufD5q23BMxPG0="/>
+    </page:show>
+</div>
